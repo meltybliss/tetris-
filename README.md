@@ -1,2 +1,2 @@
 # tetris-
-made for 2 hours in free time. all c++
+made for abt a hour in free time. all c++
