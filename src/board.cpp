@@ -128,7 +128,7 @@ bool Board::canCollide(const Tetrimino& tet) const
         if (outOfBounds(cell.x, cell.y)) return true;
     }
 
-    for (int row = 0; row < gridRow; ++row) {
+    for (int row = 0; row < gridRow; ++row) {//why did i make such shit code
         for (int col = 0; col < gridCol; ++col) {
             if (grid[row][col] != -1) {
                 for (const auto& cellA : a) {
